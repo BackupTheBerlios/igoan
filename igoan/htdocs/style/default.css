@@ -1,0 +1,549 @@
+html, body
+{
+	background-color: #ffffff;
+	color: #333333;
+	margin: 0;
+}
+
+body
+{
+	padding: 10px;
+}
+
+.menu
+{
+	margin: 46px 0 0 310px;
+	font-weight: bold;
+	padding: 1px !important;
+	border: 1px solid rgb(100, 150, 0);
+	background-color: rgb(230, 240, 220);
+	color: rgb(100, 90, 70);
+	height: 23px;
+}
+
+.menu img
+{
+	vertical-align: middle;	
+	margin: 0 1px;
+}
+
+.menu a img
+{
+	border: none;
+}
+
+fieldset
+{
+	border: 0px none #EEEEEE;
+}
+
+.lastupdated
+{
+	width: 49%;
+	padding-right: 1%;
+	margin: 0;
+	float: left;
+	border-right: 1px solid #999999;
+}
+
+.mostpopular
+{
+	width: 49%;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+#header h1
+{
+	margin: 0;
+	padding: 0;
+	width: 310px;
+	float: left;
+}
+
+#header
+{
+	border: 1px solid #ffffff;
+}
+
+#main
+{
+	margin: 0;
+}
+
+.soft
+{
+	width: 82%;
+	float: left;
+	margin: 1% 0 1% 1%;
+}
+
+.stuff
+{
+	width: 17%;
+	float: left;
+	padding: 0;
+}
+
+.login form
+{
+	padding: 0 0.3em 0.2em 0.3em;
+	color: #333333;
+}
+
+.loggued
+{
+	overflow: hidden;
+}
+
+.loggued ul
+{
+	padding: 0 0.1em 0em 1em;
+	margin-left: 0.3em;
+	margin-top: 0;
+}
+
+.loggued p
+{
+	margin: 0.5em;
+}
+
+.login input
+{
+	margin-bottom: 0.3em;
+	max-width: 17ex;
+}
+
+.item h4
+{
+	color: #333333;
+	background-color: transparent;
+	border-bottom: 1px solid #666666;
+	margin: 0 0 0.3em 0;
+	padding: 0;
+	font-size: 105%;
+}
+
+.categories, .login, .soft h4, #main h3, #main h2
+{
+	background-color: #EEEEEE;
+	border: 1px solid #999999;
+	color: #333333;
+}
+
+.categories h4, .login h4, .loggued h5
+{
+	color: #336699;
+	background-color: #EEEEEE;
+	margin: 0.5em 0.5em 0.8em 0.5em;
+}
+
+.loggued h5
+{
+	color: #333333;
+	padding: 0;
+	margin-bottom: 0.5em;
+}
+
+
+.infos ul, .infos li, .description dd, .historique dd, fieldset, form, .itemstuff ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.loggued li ul
+{
+	margin-bottom: 0.5em;
+}
+
+a:link
+{
+	color: #336699;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #006699;
+	background-color: transparent;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #667799;
+	background-color: transparent;
+}
+
+.categories a:hover
+{
+	color: #000000;
+	background-color: transparent;
+}
+
+.item
+{
+	margin-top: 0;
+}
+
+.itemstuff
+{
+	width: 310px;
+	float: left;
+}
+
+.itemstuff .screenshot
+{
+	width: 150px;
+	float: left;
+}
+
+.itemstuff .links, .itemstuff .misc 
+{
+	margin-left: 160px;
+	margin-bottom: 5px;
+}
+
+.updated
+{
+	margin-top: 1em;
+}
+
+.updated .item .infos, .updated .item .stuff
+{
+	width: 150px !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	float: left;
+}
+
+#main h3, #main h2, #main .soft h4
+{
+	padding: 0.5em;
+	margin: 0.5em 0 0.5em 0;
+	font-size: 125%;
+}
+
+#main h3
+{
+	margin-right: 0;
+}
+
+#main .soft h4
+{
+	margin-top: 0;
+	margin-right: 0;
+}
+
+
+.categories li, .categories ul
+{
+	margin: 0;
+	padding: 0.1em 0.2em;
+	display: block;
+	border: 1px solid #EEEEEE;
+}
+
+.categoriesmain ul
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+
+.categoriesmain li
+{
+	margin: 0 2em;
+	padding: 0;
+}
+
+.categories li:hover
+{
+	border: 1px solid black;
+	background-color: #DDDDDD;
+	color: #000000;
+}
+
+.categories a
+{
+	display: block;
+	text-decoration: none;
+}
+
+.infos
+{
+	float: left;
+	width: 160px;
+}
+
+.misc, #mostpopular .description, #lastupdated .description
+{
+	border: 1px solid rgb(240, 150, 40);
+	background-color: rgb(250, 230, 200);
+	color: rgb(255, 102, 0);
+	padding: 0.5em 1em 0.5em 0.5em;
+}
+
+#mostpopular .description, #lastupdated .description
+{
+	margin-right: 0;	
+}
+
+.links, #footer
+{
+	border: 1px solid rgb(100, 150, 0);
+	background-color: rgb(230, 240, 220);
+	color: rgb(100, 90, 70);
+	padding: 4px;
+}
+
+#footer
+{
+	margin-top: 1%;
+	padding: 0.5em;
+	clear: both;
+	text-align: right;
+}
+
+.soft .links a, .itemstuff .links a
+{
+	display: block;
+}
+
+.links a:link, .links a:visited
+{
+	color: rgb(100, 90, 70);
+	background-color: rgb(230, 240, 220);
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+}
+
+.links a:hover
+{
+	color: rgb(40, 80, 60);
+	background-color: rgb(230, 240, 220);
+	font-weight: bold;
+}
+
+.error a:link, .error a:visited
+{
+	color: rgb(255, 102, 0);
+	font-weight: bold;
+}
+
+.infos div
+{
+	width: 140px;
+	margin: 0 5px 0.5em 0;
+	padding: 5px;
+}
+
+.misc ul li, .links ul li, .categories li, .loggued li
+{
+	list-style-type: none;
+}
+
+.loggued li li
+{
+	list-style-type: square;
+}
+
+
+.screenshot
+{
+	width: 152px;
+	height: 110px;
+	padding: 0 !important;
+}
+
+.screenshot img
+{
+	border: 1px solid #333333;
+}
+
+.description, .historique, .abstract, .categoriesmain
+{
+	border: 1px solid rgb(100, 150, 200);
+	background-color: rgb(240, 245, 250);
+	color: #333333;
+	padding: 0.5em 1em 0.5em 0.5em;
+}
+
+.error
+{
+	padding-left: 60px;
+	background-image: url(/images/stop.png);
+	/*
+  	   si on met l'image, ne pas oublier de dire qu'elle vient de gnome.
+       http://jimmac.musichall.cz/ikony.php3
+    */
+	background-repeat: no-repeat;
+	background-position: 10px 13px;
+	border: 1px solid rgb(240, 150, 40);
+	background-color: rgb(255, 240, 210);
+}
+
+.item .description, .item .historique, .more
+{
+	margin: 0 0 0 160px;
+}
+
+.updated .item .description, .updated .item .historique
+{
+	margin: 0 0 0 320px;
+}
+
+ol li
+{
+	font-weight: bold;
+	margin-top: 0.3em;
+}
+
+ol li em, ol li span
+{
+	font-weight: normal;
+}
+
+
+.soft .description, .soft .historique
+{
+	margin-left: 165px;
+	margin-bottom: 1em;
+}
+
+.soft .description strong, .soft .historique strong
+{
+	color: rgb(80, 130, 200);
+	background-color: rgb(240, 245, 250);
+}
+
+.abstract p, .description p, .historique p
+{
+	margin: 0.3em 0.2em;
+	text-align: justify;
+}
+
+.soft .description dt, .soft .historique dt
+{
+	color: rgb(80, 130, 200);
+	background-color: rgb(240, 245, 250);
+}
+
+.description dt, .historique dt
+{
+	font-weight: bold;
+	display: inline;
+	margin: 0;
+	clear: both;
+	
+}
+
+/* fuck everything up 
+.description br
+{
+	clear: both;
+}
+*/
+
+.description dd, .historique dd
+{
+	display: inline;
+}
+
+.description dl, .historique dl
+{
+	margin: 0 0 0.5em 0;
+}
+
+.historique table
+{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1em;
+}
+
+.historique table th
+{
+	text-align: left;
+}
+
+th.short
+{
+	width: 10em;
+}
+
+.historique table thead
+{
+	border-bottom: 1px solid #999999;
+}
+
+p.more
+{
+	margin-top: 0.5em;
+	text-align: right;
+}
+
+label
+{
+	font-weight: bold;
+}
+
+.admin label
+{
+	float: left;
+	width: 13em;
+	margin-top: 0.4em;
+}
+
+.admin input, .admin select
+{
+	width: 14em;
+	border: 1px solid #666666;
+}
+
+.admin .submit input, .admin .submit label
+{
+	margin: 1em 0 0.5em 0;
+	visibility: hidden;
+}
+
+.admin .submit input
+{
+	text-align: center;
+	font-weight: bolder;
+	width: 10em;
+	visibility: visible;
+}
+
+.admin textarea
+{
+	width: 27em;
+	border: 1px solid #666666;
+}
+
+.description  textarea, .description  input, .description select
+{
+	border: 1px solid #708698;
+	margin-top: 0.4em;
+	color: #336699;
+	background-color: #EEEEEE;
+	font-family: monospace !important;
+}
+
+.description  input[type="image"]
+{
+	background-color: transparent;
+	border-style: none;
+}
+
+div.block
+{
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
